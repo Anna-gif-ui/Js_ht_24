@@ -1,39 +1,40 @@
 (function () {
     'use strict'
 
-    let number = prompt('Enter the number from 0 to 9', 0);
-    switch(number) {
+    let key = prompt('Введите число от 0 до 9 и я покажу спецсимвол, который соответствует этому числу')
+     switch(key) {
         case '0':
-            console.log('0 is )');
+            document.write(`${key} соответствует )`);
             break;
         case '1':
-            console.log('1 is !');
+            document.write(`${key} соответствует !`);
             break;
         case '2':
-            console.log('2 is @');
+            document.write(`${key} соответствует @`);
             break;
         case '3':
-            console.log('3 is #');
+            document.write(`${key} соответствует #`);
             break;
         case '4':
-            console.log('4 is $');
-            break;
+            document.write(`${key} соответствует $`);
+            break;  
         case '5':
-            console.log('5 is %');
-            break;
+            document.write(`${key} соответствует %`);
+            break;  
         case '6':
-            console.log('6 is ^');
-            break;
+            document.write(`${key} соответствует ^`);
+            break;  
         case '7':
-            console.log('7 is &');
-            break;
+            document.write(`${key} соответствует &`);
+            break; 
         case '8':
-            console.log('8 is *');
-            break;
+            document.write(`${key} соответствует *`);
+            break; 
         case '9':
-            console.log('9 is (');
-            break;
- 
+            document.write(`${key} соответствует (@)`);
+            break; 
+        default: return `Я не знаю этот символ`;
+     }
 
  })()
 
