@@ -33,7 +33,7 @@
         case '9':
             document.write(`${key} соответствует (@)`);
             break; 
-        default: return `Я не знаю этот символ`;
+        default: document.write(`Я не знаю этот символ`);
      }
 
  })()

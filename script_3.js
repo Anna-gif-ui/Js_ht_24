@@ -16,7 +16,7 @@
     if(number1===number2 || number2===number3 || number1===number3)
     document.write('Найдено совпадение цифр')
     else
-    document.write('Совпадений не найдено')
+    document.write('Совпадений цифр не найдено')
 
  })()
 
